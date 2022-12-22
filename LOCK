@@ -7312,7 +7312,28 @@ end
 
 checklevel()
 ----------------------------------------
-allcode = {"KittGaming","Enyu_is_Pro","Sub2Fer999","Bluxxy","JCWK","Magicbus","Starcodeheo","SUB2GAMERROBOT_EXP1","Sub2OfficialNoobie","StrawHatMaine","SUB2NOOBMASTER123","Sub2Daigrock","Axiore","TantaiGaming"}
+allcode = {"3BVISITS",
+        "UPD16",
+        "FUDD10",
+        "BIGNEWS",
+        "THEGREATACE",
+        "SUB2GAMERROBOT_EXP1",
+        "StrawHatMaine",
+        "Sub2OfficialNoobie",
+        "SUB2NOOBMASTER123",
+        "Sub2Daigrock",
+        "Axiore",
+        "TantaiGaming",
+        "STRAWHATMAINE",
+        "Enyu_is_Pro",
+        "Magicbus",
+        "Sub2Fer999",
+        "Starcodeheo",
+        "JCWK",
+        "KittGaming",
+        "Bluxxy",
+        "TheGreatAce"}
+
 spawn(function()
     for i,v in pairs(allcode) do
         pcall(function()
